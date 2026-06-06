@@ -10,9 +10,12 @@ ROOT = Path(__file__).resolve().parent.parent
 IMAGES = ROOT / "images"
 
 CUSTOM_IMAGES: frozenset[str] = frozenset({
-    "hero-key-west.png",
+    "hero-key-west.png",  # site-provided Duval Street hero
+    "key-west-intro.png",  # site-provided Southernmost Point
     "southernmost-point.png",
     "duval-street.png",
+    "conch-train.png",
+    "key-west-sunset-sailing.png",
     "key-west-cruise-port.png",
 })
 

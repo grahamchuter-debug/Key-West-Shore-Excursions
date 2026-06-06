@@ -18,7 +18,7 @@ HERO_GRADIENT = (
 ACCENT = "text-amber-200"
 
 HOME_HERO = "images/hero-key-west.png"
-HOME_HERO_ALT = "Southernmost Point buoy in Key West Florida visited by cruise passengers"
+HOME_HERO_ALT = "Colourful Duval Street in Key West Old Town with historic wooden buildings visited by cruise passengers"
 BEST_IMG = "images/best-key-west-excursions.png"
 BEST_ALT = "Best Key West shore excursions including sightseeing snorkelling and sunset sailing"
 PORT_IMG = "images/key-west-cruise-port.png"
@@ -50,7 +50,7 @@ FAMILY_ALT = "Family friendly Key West shore excursion from the cruise port"
 FAQ_IMG = "images/key-west-faq.png"
 FAQ_ALT = "Cruise passengers exploring Key West Florida"
 INTRO_IMG = "images/key-west-intro.png"
-INTRO_ALT = "Colourful Old Town Key West street scene near the cruise port"
+INTRO_ALT = "Southernmost Point buoy in Key West Florida visited by cruise passengers"
 
 
 def page_shell(
