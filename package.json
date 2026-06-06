@@ -1,0 +1,13 @@
+{
+  "name": "key-west-shore-excursions",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build-key-west-site.py",
+    "images": "python3 scripts/fetch-key-west-images.py",
+    "deploy": "wrangler deploy",
+    "preview": "python3 -m http.server 8912"
+  },
+  "devDependencies": {
+    "wrangler": "^4.94.0"
+  }
+}
