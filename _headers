@@ -1,0 +1,7 @@
+/images/*.jpg
+  Content-Type: image/jpeg
+  Cache-Control: public, max-age=86400
+
+/images/*.png
+  Content-Type: image/png
+  Cache-Control: public, max-age=86400

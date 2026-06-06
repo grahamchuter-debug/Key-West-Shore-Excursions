@@ -9,30 +9,28 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 IMAGES = ROOT / "images"
 
+# Site-provided JPEGs — never overwrite (see images/ATTRIBUTION.md).
 CUSTOM_IMAGES: frozenset[str] = frozenset({
-    "hero-key-west.png",  # site-provided Duval Street hero
-    "key-west-intro.png",  # site-provided Southernmost Point
-    "southernmost-point.png",
-    "duval-street.png",
-    "conch-train.png",
-    "key-west-sunset-sailing.png",
-    "key-west-cruise-port.png",
+    "hero-key-west.jpg",
+    "key-west-intro.jpg",
+    "southernmost-point.jpg",
+    "duval-street.jpg",
+    "conch-train.jpg",
+    "key-west-sunset-sailing.jpg",
+    "one-day-key-west.jpg",
+    "walk-from-port.jpg",
+    "key-west-family.jpg",
 })
 
 DOWNLOADS: list[tuple[str, str, int]] = [
     ("best-key-west-excursions.png", "Q0HR_nrDkB8", 1920),
-    ("one-day-key-west.png", "vYXrNeIpm3w", 1920),
-    ("walk-from-port.png", "PsgyWVeJjOA", 1920),
     ("hemingway-house.png", "WOyBhxyB8KI", 1920),
-    ("conch-train.png", "PsgyWVeJjOA", 1920),
     ("key-west-trolley.png", "PsgyWVeJjOA", 1920),
     ("key-west-snorkelling.png", "uTgKYNhuKOk", 1920),
     ("key-west-dolphin.png", "BUIEgc7J0eo", 1920),
-    ("key-west-sunset-sailing.png", "YZ8Jc6TiH2A", 1920),
     ("dry-tortugas.png", "vYXrNeIpm3w", 1920),
-    ("key-west-family.png", "PsgyWVeJjOA", 1920),
     ("key-west-faq.png", "Q0HR_nrDkB8", 1920),
-    ("key-west-intro.png", "vYXrNeIpm3w", 1920),
+    ("key-west-cruise-port.png", "Q0HR_nrDkB8", 1920),
 ]
 
 
